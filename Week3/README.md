@@ -239,7 +239,7 @@ Pada programming object adalah sebuah tipe data pada variabel yg menyimpan prope
   - Procedural
   - Conditional
   - Looping
-  - Modular (function)\
+  - Modular (function)
   - Recursive
 - Ciri dari recursive:
   - Fungsi recursive memiliki kondisi yang menyatakan kapan fungsi tersebut berhenti. 
@@ -323,8 +323,63 @@ Pada programming object adalah sebuah tipe data pada variabel yg menyimpan prope
 - **OOP** atau Object Oriented Programming adalah suatu paradigma dalam pemrograman 
 - 4 Pilar dalam OOP :
   - Encapsulation adalah cara untuk membatasi akses langsung ke properti atau method dari sebuah objek
+    ```
+        function Gojek(jarak) {
+        const pricePerKm = 4000;
+        this.jarak = jarak;
+
+        this.price = function () {
+        return pricePerKm * this.jarak;
+        };
+        }
+
+        let gojek1 = new Gojek(10);
+        gojek1.pricePerKm = 10000;
+
+        console.log(gojek1.price());
+     ```
   - Inheritance adalah sebuah proses dimana sebuah kelas mewariskan properti dan method ke kelas lain atau childnya
+     ```
+        class Person {
+        constructor(name, age) {
+          this.name = name;
+          this.age = age;
+        }
+        greeting() {
+        return `Hello ${this.name} umur ${this.age}`;
+        }
+        }
+        class PNS extends Person {
+        constructor(name, age, nik, lokasiPenempatan) {super(name, age);
+        this.nik = nik;
+        this.lokasiPenempatan = lokasiPenempatan;
+        }
+        detail() {
+        return `Hello ${this.name} umur ${this.age} dengan nik ${this.nik} penempatan ${this.lokasiPenempatan}`;
+        }
+        }
+        let pns1 = new PNS("Chaca Caliza", 22, 081119999, "Surabaya");
+
+        console.log(pns1.detail());
+     ``` 
   - Polymorpishm adalah kemampuan dari suatu objek untuk memiliki banyak bentuk
+     ```
+        class Animal {
+        sound() {
+        console.log("Animal Make sound");
+        }
+       }
+
+        class Cat extends Animal {
+        sound() {
+        console.log("Miaw");
+        }
+       }
+
+        let angoraCat = new Cat();
+
+        angoraCat.sound();
+     ```
   - Abstraction adalah teknik untuk menyembunyikan detail tertentu dari sebuah object atau method dan hanya menampilkan fitur penting dari objek tersebut
 
 ### **JavaScript Modules**
