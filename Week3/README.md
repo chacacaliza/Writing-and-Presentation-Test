@@ -375,10 +375,17 @@ Pada programming object adalah sebuah tipe data pada variabel yg menyimpan prope
         console.log("Miaw");
         }
        }
-
-        let angoraCat = new Cat();
+       
+       class Cow extends Animal {
+        sound() {
+         console.log("Mooo");
+        }
+        }
+        let anggoraCat = new Cat();
+        let sayCow = new Cow();
 
         angoraCat.sound();
+        sayCow.sound();
      ```
   - Abstraction adalah teknik untuk menyembunyikan detail tertentu dari sebuah object atau method dan hanya menampilkan fitur penting dari objek tersebut
 
