@@ -141,6 +141,7 @@
     });
     console.table(inventory);
     ```
+   ![map array](https://user-images.githubusercontent.com/64596495/182080815-2c75210d-b973-441a-97ff-11d3ca8694c5.JPG)
 - Looping pada Multidimensional array
     ```
     let inventory = [
@@ -155,6 +156,9 @@
         });
     });
     ```
+    ![foreach array](https://user-images.githubusercontent.com/64596495/182081356-67c6807d-1c4a-4467-885f-253039c7eb5d.JPG)
+
+
 ### **JavaScript Object**
 - Object adalah benda mati maupun benda hidup adalah object.
 Pada programming object adalah sebuah tipe data pada variabel yg menyimpan properti dan fungsi (method)
