@@ -114,7 +114,7 @@
         ['Topi' , 12],
         ['Celana' , 4],
     ];
-    console.log([1][0]);
+    console.log(inventory[1][0]);
     ```
 - Penggunaan built in method pada multidimensional array
     ```
