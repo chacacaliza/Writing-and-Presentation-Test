@@ -400,6 +400,20 @@ Pada programming object adalah sebuah tipe data pada variabel yg menyimpan prope
   - Session storage
   - IndexDB
   - Cookies
+- Cara menyimpan data pada local storage 
+    ```
+        let token = "asdfghjkl" //key
+        localStorage.setItem("token", token);
+    ```
+- Cara mengambil token
+    ```
+        localstorage.getItem("token", token);
+        console.log(localStorage.getItem('token");
+    ```
+- Cara menghapus data 
+    ```
+        localStorage.removeItem("token")
+    ```
 ### **Asynchronous**
 - Asynchronous sebuah teknik yang menyelesaikan fungsi secara paralel
 - Penggunaan asynchronous dapat dilakukan jika kita ingin mengambil data dari database
@@ -447,8 +461,41 @@ Pada programming object adalah sebuah tipe data pada variabel yg menyimpan prope
   p2(p3)
   ```
 - **Asynchronous - Promise** merupakan suatu object dan digunakan hanya untuk satu event dengan menyimpan hasil dari sebuah operasi asynchronous baik itu hasil yang diinginkan (resolved value) atau alasan kenapa operasi itu gagal (failure reason)
+  ```
+    function GetUser(id) {
+    return new Promise((resolve, reject) => {
+    if (id !== "" && id !== undefined) {
+      reesolve (id);
+    } else {
+      reject ("ID Harus di Isi");
+        }
+    });
+    }
+    
+    GetUser( ) 
+    .then((response) => {
+    console.log(response);
+     })
+     .catch((error) => {
+    console.log(error);
+    });
+  ```
 - **Asynchronous - Async-Await** merupakan fitur yang hadir sejak ES2017 bekerja dengan cara menunda eksekusi hingga proses asynchronous selesai
-- **Asynchronous - Fetch** merupakan cara baru dalam melakukan network request yang memanfaatkan sebuah Promise dalam penggunaanya. Karen Fetch mengembalikan sebuah Promise maka respon handling yang digunakan adalah **then** jika promise mengembalikan resolve dan **catch** jika promise mengembalikan nilai reject.
+- **Asynchronous - Fetch** merupakan cara baru dalam melakukan network request yang memanfaatkan sebuah Promise dalam penggunaanya. Karen Fetch mengembalikan sebuah Promise maka respon handling yang digunakan adalah **then** jika promise mengembalikan resolve dan **catch** jika promise mengembalikan nilai reject
+  ```
+    fetch("https://pokeapi.co/api/v2/pokemon/pikachu/", {
+    method: "GET"
+    })
+     .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+     console.log(data);
+     })
+    .catch((error) => {
+    console.log(error);
+    });
+  ```
 - **API dan HTTP Request**
    > API : Application programming interface
  - API sebagai alat untuk berbicra antar perangkat lunak 
