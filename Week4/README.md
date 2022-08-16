@@ -108,37 +108,39 @@
   "light":      $light,
   "dark":       $dark
   );
-```
+  ```
+
 - Kapan kita menggunakan bootstrap?
   - Boostrap digunakan ketika membuat website sederhana dan tidak memerlukan load lama
 - Layout pada boostrap :
   - Breakpoints merupakan suatu cara yang dilakukan untuk membuat desain responsif dengan mengontrol kapan tata letak yang disesuaikan dengan ukuran perangkat
     tertentu.
-  - Breakpoints pada bootstrap ada 5 yaitu sm, md, lg, xl dan xxl.
-  - Setiap breakpoint dipilih untuk menampung container yang lebarnya 12 dengan sehingga tersusun rapi. Breakpoint juga mewakili subset ukuran perangkat umum dan
+    - Breakpoints pada bootstrap ada 5 yaitu sm, md, lg, xl dan xxl.
+    - Setiap breakpoint dipilih untuk menampung container yang lebarnya 12 dengan sehingga tersusun rapi. Breakpoint juga mewakili subset ukuran perangkat umum dan
     dimensi area pandang.
-  - Container adalah blok dasar atau pembungkus boostrap yang terdiri dari contain, pad dan align  yang menyelaraskan konten website dalam perangkat atau area      
+ - Container adalah blok dasar atau pembungkus boostrap yang terdiri dari contain, pad dan align  yang menyelaraskan konten website dalam perangkat atau area      
     pandang tertentu.
-  - Terdapat 3 container pada boostrap yaitu :
+   - Terdapat 3 container pada boostrap yaitu :
     - .container, yang menerapkan lebar maksimum pada setiap breakpoint responsif
     - .container-{breakpoint}, menerapkan lebar 100% sampai dengan breakpoint yang ditentukan.
     - .container-fluid, menerapkan 100% ukurannya dari breakpoints
-  - Grid System pada bootstrap yang terdiri dari 12 kolom default.
-  - Grid system pada bootstrap menggunakan container,baris dan kolom untuk menata dan menyelaraskan konten,yang dibangun menggunakan flexbox dan itu sudah responsive.
+ - Grid System pada bootstrap yang terdiri dari 12 kolom default.
+ - Grid system pada bootstrap menggunakan container,baris dan kolom untuk menata dan menyelaraskan konten,yang dibangun menggunakan flexbox dan itu sudah responsive.
+ 
   - contoh penggunaan grid system
-  ``` 
-  <div class="container text-center">
-  <div class="row">
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-   </div>
-  </div>
- ```
+   ``` 
+     <div class="container text-center">
+     <div class="row">
+      <div class="col">
+        Column
+      </div>
+      <div class="col">
+        Column
+      </div>
+      <div class="col">
+        Column
+      </div>
+     </div>
+     </div>
+   ```
  
