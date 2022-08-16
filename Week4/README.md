@@ -66,6 +66,25 @@
     }
    }
   ```
+- Flexbox bertujuan untuk membuat website yang lebih efisien dalam mengatur, menata dan item pada dalam sebuah wadah bahkan ketika ukurannya tidak diketahui dan/atau dinamis (dengan menggunakan kata "flex").
+- Flexbox properties :
+  - Flex direction : menetapkan sumbu utama item, sehingga menentukan arah item fleksibel ditempatkan di wadah fleksibel. 
+    - Row : Kiri ke kanan
+    - Row-Reverse : Kanan ke kiri
+    - Column : Atas ke bawah
+    - Column-Reverse : Bawah ke atas
+  - Flex Wrap : Secara default, semua item pada flexbox akan mencoba berada dalam satu baris. Maka dengan flex wrap kita dapat mengubah hal tersebut.
+    - nowrap : semua item flex akan berada dalam satu baris
+    - wrap : item fkex akan membungkus ke beberapa baris, dari atas ke bawah.
+    - wrap-reverse :item flex akan membungkus beberapa baris dari bawah ke atas.
+  - Flex flow : cara singkat untuk properti flex-direction dan flex-wrap, yang bersama-sama menentukan sumbu utama dan sumbu silang container flex. Nilai default adalah baris nowrap.
+  - Align items
+  - Contoh :
+  - ![align](https://user-images.githubusercontent.com/64596495/184914490-9233304c-402e-4a70-978d-c34cbd43b44e.JPG)
+- Grid merupakan sistem tata letak berbasis dua dimensi.
+- Pada Grid ada 2 jenis yaitu grid container dan grid item.
+
+
 ### **Bootstrap**
 - Bootstrap adalah salah satu framework opensource yang berfungsi membuat suatu responsive website
 - Komponen utama bootstrap :
@@ -76,6 +95,20 @@
 - Contoh penggunaan content bootstrap :
   - CSS : bootstrap.min.css, bootstrap-grid.css, dll
   - JS : bootstrap.bundle.js, bootstrap.min.js, dll
+- Komponen Bootstrap sebagian besar dibangun dengan base-modifier nomenclature.Contohnya mengelompokkan beberapa properti kedalam kelas dasar seperti .btn, seperti .btn-primary or .btn-success.
+- Penggunaan theme color pada boostrap dapat menggunakan keyword berikut :
+  ```
+  $theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+  );
+```
 - Kapan kita menggunakan bootstrap?
   - Boostrap digunakan ketika membuat website sederhana dan tidak memerlukan load lama
 - Layout pada boostrap :
@@ -108,4 +141,4 @@
    </div>
   </div>
  ```
-- 
+ 
