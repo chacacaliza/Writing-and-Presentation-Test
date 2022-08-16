@@ -73,6 +73,9 @@
   - bootstrap.js
 - Cara konfigurasi bootstrap :
   - Membuat tag boostrap di head. Cara memanggil css bootstrap dengan menggunakan href lalu mengganti link href css lokal dengan link boostrap online.
+- Contoh penggunaan content bootstrap :
+  - CSS : bootstrap.min.css, bootstrap-grid.css, dll
+  - JS : bootstrap.bundle.js, bootstrap.min.js, dll
 - Kapan kita menggunakan bootstrap?
   - Boostrap digunakan ketika membuat website sederhana dan tidak memerlukan load lama
 - Layout pada boostrap :
@@ -89,4 +92,20 @@
     - .container-fluid, menerapkan 100% ukurannya dari breakpoints
   - Grid System pada bootstrap yang terdiri dari 12 kolom default.
   - Grid system pada bootstrap menggunakan container,baris dan kolom untuk menata dan menyelaraskan konten,yang dibangun menggunakan flexbox dan itu sudah responsive.
-  - 
+  - contoh penggunaan grid system
+  ``` 
+  <div class="container text-center">
+  <div class="row">
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+   </div>
+  </div>
+ ```
+- 
