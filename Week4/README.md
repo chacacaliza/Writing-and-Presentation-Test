@@ -33,7 +33,7 @@
     console.log(error);
     });
   ```
-- HTTP Request yaitu berfungsi sebagai alat komunikasi froentend dengan backend
+- HTTP Request yaitu berfungsi sebagai alat komunikasi frontend dengan backend
 - HTTP Request Method
    - GET untuk mengambil data 
    - POST untuk mengirimkan data
