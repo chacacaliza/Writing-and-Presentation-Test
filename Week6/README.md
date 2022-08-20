@@ -1,1 +1,26 @@
 # Writing and Presentation Test Week 6
+## **React JavaScript**
+> React adalah library atau framework yang dikhususkan bagi client/user untuk membuat tampilan website
+- React membuat aplikasi menjadi lebih cepat
+- React dapat digunakan pada skala yang kecil maupun besar
+- React sangat populer dan memiliki komunitas yang besar
+- Untuk menjalankan react dapat menggunakan node.js
+- Step menggunakan React JS :
+  - Menginstall node js
+  - Menginstall npm install -g create-react-app
+  - Membuat project dengan npx create-react-app [name-project]
+- File extension dari javascript pada react adalah JSX
+- Rules JSX
+  - Hanya boleh memiliki 1 parent 
+  - Memiliki DOM manipulation 
+  - Atribut class di tag HTML harus menggunakan className
+  - Menggunakan curly braces untuk mengakses variabel JSX
+- Component pada React JS merupakan  core pada React JS yang bersifat enkapsulasi atau pembungkus pada react dimana dalam 1 page dapat terdiri dari beberapa component
+- Cara membuat component :
+  - Menggunakan function
+  - Menggunakan class
+- Functional Component hanya bisa menggunakan props itu sebabnya function component disebut stateless component
+- Clasas Component dapat menggunakan props dan state
+-  props & state digunakan untuk menghandle data di dalam component.
+- Props merupakan sata yang dapat kita kirimkan dari suatu component ke component lain
+- State digunakan untuk menghandle data yang sifatnya berubah-ubah dan data yang bersifat private yang hanya dapat diakses oleh component tersebut saja
