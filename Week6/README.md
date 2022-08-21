@@ -21,6 +21,14 @@
   - Menggunakan class
 - Functional Component hanya bisa menggunakan props itu sebabnya function component disebut stateless component
 - Clasas Component dapat menggunakan props dan state
--  props & state digunakan untuk menghandle data di dalam component.
-- Props merupakan sata yang dapat kita kirimkan dari suatu component ke component lain
+- props & state digunakan untuk menghandle data di dalam component.
+- Props merupakan data yang dapat kita kirimkan dari suatu component ke component lain
 - State digunakan untuk menghandle data yang sifatnya berubah-ubah dan data yang bersifat private yang hanya dapat diakses oleh component tersebut saja
+- Stateless dan Statefull Component
+- Stateless Component adalah component yang tidak memiliki state internal sendiri, melainkan data yang didapatkan oleh komponen tersebut berasal dari luar
+- Statefull Component adalah component yang memiliki state sendiri sehingga stateful component harus menggunakan fungsi setState/useState di dalam tubuh fungsi
+- Lifecycle adalah siklus hidup pada React js
+- Struktur Lifecycle :
+  - Constructor: inisialisasi struktur data pada suatu component
+  - function : fungsi yg dibutuhkan pada komponen
+  - Render: proses return atau mengembalikan nilai asli 
