@@ -31,4 +31,10 @@
 - Struktur Lifecycle :
   - Constructor: inisialisasi struktur data pada suatu component
   - function : fungsi yg dibutuhkan pada komponen
-  - Render: proses return atau mengembalikan nilai asli 
+  - Render: proses return atau mengembalikan component asli 
+- Jenis - jenis Lifecycle Component Class:
+  - Mounting : Siklus ketika aplikasi sesaat sebelum component dibuka.
+    - componentDidMount adalah ketika memuat aplikasi sebelum di render
+    - componentWillMount adalah ketika aplikasi dimuat setelah proses render dilakukan.
+  - Updating : Ketika component di update atau diubah
+  - Unmount : Proses menghancurkan component yang sebelumnya di definisikan
