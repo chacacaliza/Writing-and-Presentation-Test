@@ -15,6 +15,7 @@
   - Memiliki DOM manipulation 
   - Atribut class di tag HTML harus menggunakan className
   - Menggunakan curly braces untuk mengakses variabel JSX
+- Virtual DOM : sebuah javascript object (virtual) yang merepresentasikan DOM yang sebenarnya (real DOM)
 - Component pada React JS merupakan  core pada React JS yang bersifat enkapsulasi atau pembungkus pada react dimana dalam 1 page dapat terdiri dari beberapa component
 - Cara membuat component :
   - Menggunakan function
