@@ -38,3 +38,38 @@
     - componentWillMount adalah ketika aplikasi dimuat setelah proses render dilakukan.
   - Updating : Ketika component di update atau diubah
   - Unmount : Proses menghancurkan component yang sebelumnya di definisikan
+- Styling pada React JS 
+  - Styling Inline : menggunakan style ini, nilainya harus berupa object JavaScript
+    ``` 
+      class MyHeader extends React.Component {
+      render() {
+      return (
+      <div>
+      <h1 style={{color: "red"}}>Hello Style!</h1>
+      <p>Add a little style!</p>
+      </div>
+      );
+     }
+    }
+    ```
+  - Penulisan Nama properti menggunakan camelCased
+    ```
+        class MyHeader extends React.Component {
+        render() {
+        return (
+        <div>
+        <h1 style={{backgroundColor: "lightblue"}}>Hello Style!</h1>
+        <p>Add a little style!</p>
+        </div>
+        );
+       }
+      }
+     ```
+ - Stylesheet CSS
+     ```
+        background-color: #282c34;
+        color: white;
+        padding: 40px;
+        font-family: Arial;
+        text-align: center;
+     ```
