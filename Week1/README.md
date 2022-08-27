@@ -43,7 +43,7 @@ mv [namafile] [namafilebaru]
 - git push -u origin master digunakan untuk mengirimkan/perubahan file ke remote repository 
 - git branch -b [nama branch] digunakan untuk membuat branch baru
 - git checkout digunakan untuk berpindah branch
-- git merge digunakan untuk menggabungkan branch cabang ke branch master 
+- git merge digunakan untuk menggabungkan branch cabang ke branch master ( git merge origin/(nama branch))
 
 ## Day 3 : HTML
 - HTML atau *Hypertext Markup Language* yang berfungsi menampilkan konten di browser
