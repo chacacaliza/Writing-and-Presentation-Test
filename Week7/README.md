@@ -77,7 +77,7 @@
   name: PropTypes.string
   };
   ```
-- ###**Router**
+### **Router**
 - React Router merupakan standar library untuk routing pada React.
 - standar routing berfungsi untuk membuat suatu website menjadi dynamic.
 - Pada React, Router membantu untuk mengarahka page satu ke page yg lainnya berdasarkan path url yg ditentukan.
@@ -139,7 +139,7 @@
   - Dynamic Route
   - Nested Route
   
--###**React Redux**
+### **React Redux**
 - Redux digunakan untuk mengolah state management
 - Yaitu dengan menyimpan state di satu tempat, sehingga lebih mudah untuk di manage.
 - cara kerja Redux :
