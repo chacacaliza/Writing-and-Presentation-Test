@@ -147,4 +147,4 @@
   - .col-lg digunakan untuk mengatur grid pada ukuran monitor yang besar
   - .col-md digunakan pada monitor komputer berukuran sedang
   - .col-sm digunakan untuk mengatur monitor pada tablet
-  - .col-xs digunakan untuk mengatur monitor pada handphone
+  - .col-xs digunakan untuk mengatur monitor pada handphone 
