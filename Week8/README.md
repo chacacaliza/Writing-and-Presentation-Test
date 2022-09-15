@@ -23,7 +23,7 @@
   - integration testing
   - UI texting
 - **Unit Texting** menggunakan Jest adalah a JavaScript test runner, yaitu library JavaScript untuk membuat, menjalankan, dan menyusun pengujian.
-- Unit texting ini, unit individu atau komponen perangkat lunak diuji. Sebuah unit dapat berupa fungsi individu, metode, prosedur, modul, atau objek. Tes unit mengisolasi bagian kode dan memverifikasi kebenarannya, untuk memvalidasi bahwa setiap unit kode perangkat lunak berfungsi seperti yang diharapkan.
+- Unit testing ini, unit individu atau komponen perangkat lunak diuji. Sebuah unit dapat berupa fungsi individu, metode, prosedur, modul, atau objek. Tes unit mengisolasi bagian kode dan memverifikasi kebenarannya, untuk memvalidasi bahwa setiap unit kode perangkat lunak berfungsi seperti yang diharapkan.
 - Terdapat 2 scenario yang dilakukan dalam melakukan unit testing yaitu:
   - mewarisi kode warisan yang datang tanpa tes
   - menerapkan fungsi baru secara tiba-tiba
