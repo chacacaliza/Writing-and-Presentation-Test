@@ -13,7 +13,7 @@
 ## **React Context**
 - React Context dirancang untuk berbagi data yang dapat dianggap "global" untuk pohon komponen React, seperti pengguna yang diautentikasi saat ini, tema, atau bahasa pilihan
 - Penggunaan React Context 
-  - Untuk membuat new context, gunakan fungsi createContext baru React: `` export const LocaleContext = React.createContext('en'); ``
+  - Untuk membuat new context, gunakan fungsi createContext baru React
   - Fungsi createContext mengembalikan a Provider dan a Consumer component..
 
 ## **React Testing**
@@ -38,4 +38,4 @@
   - Testing diperlukan untuk kinerja yang efektif dari aplikasi perangkat lunak atau produk.
 - React Testing Library dibangun di atas DOM Testing Library dengan menambahkan API untuk bekerja dengan komponen React.
 - Menginstall library testing ``npm install --save-dev @testing-library/react``
-- 
+
