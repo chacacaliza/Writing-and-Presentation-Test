@@ -28,7 +28,7 @@
   - mewarisi kode warisan yang datang tanpa tes
   - menerapkan fungsi baru secara tiba-tiba
 - Alur testing:
-  - impor fungsi untuk menguji 
+  - import fungsi untuk menguji 
   - Memberikan masukan ke fungsi 
   - Menentukan apa yang diharapkan sebagai output 
   - Memeriksa apakah fungsi menghasilkan output yang diharapkan
